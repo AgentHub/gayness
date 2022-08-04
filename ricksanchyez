@@ -285,7 +285,3 @@ while wait(2) do
 		if v.name == 'Zombie' and v.parent.parent.name == 'Killers' then 
 			v:destroy()
 		end end end end
-		
-function firerate()
-	for i,m in next,getgc(true)do
-		if type(m)=='table'and rawget(m,'
