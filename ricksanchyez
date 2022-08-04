@@ -1,0 +1,291 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Game Rigger ( gay edition )", HidePremium = true, SaveConfig = true, IntroEnabled = false})
+
+--values
+
+
+-- funny chet
+
+local Tab = Window:MakeTab({
+	Name = "Game",
+	Icon = "rbxassetid://9679280461",
+	PremiumOnly = false
+})
+
+--anticheat
+
+Tab:AddButton({
+	Name = "Anticheat Bypass",
+	Callback = function()
+      		AntiCheat()
+  	end    
+})
+-- remove Doors
+
+Tab:AddButton({
+	Name = "Remove Doors",
+	Callback = function()
+      		RemoveDoors()
+  	end    
+})
+
+-- no more kilaaa
+
+Tab:AddButton({
+	Name = "Break Killers",
+	Callback = function()
+      		WheelchairKillers()
+  	end    
+})
+-- player tab
+
+local Tab = Window:MakeTab({
+	Name = "Player",
+	Icon = "rbxassetid://9679280461",
+	PremiumOnly = false
+})
+
+-- vesto chan
+
+Tab:AddButton({
+	Name = "Bring Vest",
+	Callback = function()
+      		BringVest()
+  	end    
+})
+
+-- bring gun
+
+Tab:AddButton({
+	Name = "Bring Guns",
+	Callback = function()
+      		GiveAllGuns()
+  	end    
+})
+
+-- get all papers fr
+
+Tab:AddButton({
+	Name = "Bring Papers",
+	Callback = function()
+      		GetPapers()
+  	end    
+})
+
+-- Weapon Tab
+
+local Tab = Window:MakeTab({
+	Name = "Weapon",
+	Icon = "rbxassetid://9679280461",
+	PremiumOnly = false
+})
+
+-- inf ammo
+
+Tab:AddButton({
+	Name = "Infinite Ammo",
+	Callback = function()
+      		InfiniteAmmo()
+  	end    
+})
+
+-- teleport
+
+local Tab = Window:MakeTab({
+	Name = "Teleports",
+	Icon = "rbxassetid://9679280461",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "AWP",
+	Callback = function()
+      	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(70.6999969, 282.700012, 29.7000008, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "M1014",
+	Callback = function()
+      	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(148.199997, 260.700043, 327.100037, 0, -1, 0, 1, 0, -0, 0, 0, 1)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "M14",
+	Callback = function()
+      	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(114.199997, 325, 674.700012, 0, 1, 0, 1, 0, 0, 0, 0, -1)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Desert Eagle",
+	Callback = function()
+      	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(56.5000038, 293, 263.399963, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "M4A1",
+	Callback = function()
+      	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(377.900024, 324.5, 652.399963, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "R870",
+	Callback = function()
+      	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(137.199997, 335, 502.099976, 0, -1, 0, 1, 0, -0, 0, 0, 1)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Ray Gun",
+	Callback = function()
+      	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(114.199997, 337.000031, 572.099976, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "MP5K",
+	Callback = function()
+      	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(232.199997, 374.5, 50.0999985, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "AK 47",
+	Callback = function()
+      	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(320.899994, 272.699982, 142.300003, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "DB Shotgun",
+	Callback = function()
+      	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-104.500031, 314.5, 460.399994, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "AN 94",
+	Callback = function()
+      	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(156.5, 344.5, 607.400024, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "G36C",
+	Callback = function()
+      	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-148.5, 315, 280.399994, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "P90",
+	Callback = function()
+      	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-156.5, 304.5, 767.900024, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "SVD",
+	Callback = function()
+      	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(201.899994, 303.5, 160.5, -8.10623169e-05, 8.10623169e-05, 1, 1, -8.10623169e-05, 8.10623169e-05, 8.10623169e-05, 1, -8.10623169e-05)
+  	end    
+})
+
+Tab:AddLabel("Papers")
+
+Tab:AddButton({
+	Name = "Paper 1",
+	Callback = function()
+      	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(140.700012, 310.549988, 578.400024, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Paper 2",
+	Callback = function()
+      	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(184, 334.549988, 514.5, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Paper 3",
+	Callback = function()
+      	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(202, 333.549988, 491.80011, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+  	end    
+})
+
+Tab:AddLabel("Misc")
+
+Tab:AddButton({
+	Name = "Pack a Punch",
+	Callback = function()
+      	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(281.895447, 325.293671, 784.330811, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Code Room",
+	Callback = function()
+      	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(137.415527, 333.499908, 531.880554, -0.999849319, 2.14792859e-08, 0.0173594505, 2.23804157e-08, 1, 5.17157766e-08, -0.0173594505, 5.2096496e-08, -0.999849319)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Execution Room",
+	Callback = function()
+      	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(18.9298782, 313.500244, 203.520447, 1, 1.44934731e-08, 6.19463535e-05, -1.44886005e-08, 1, -7.86540753e-08, -6.19463535e-05, 7.86531729e-08, 1)
+  	end    
+})
+
+--functions
+
+function RemoveDoors()
+	for i,v in pairs(workspace.Doors:GetDescendants()) do
+		if  v:IsA ("Part") and v.name == 'Door' then
+			v:Destroy() end end end 
+			
+function AntiCheat()
+   while wait(2) do
+	for i,v in pairs(workspace:GetDescendants()) do 
+		if v.name == "AntiOoB" then v:Destroy() end end end
+end
+
+function InfiniteAmmo()
+    	for i,v in next,getgc(true)do
+		if type(v)=='table'and rawget(v,'ammo')then
+			v.ammo = math.huge
+			v.stored_ammo = math.huge
+		end end end 
+		
+function BringVest()
+	for _,EventGiver in pairs(workspace.AREA51:GetDescendants()) do 
+		if EventGiver.name == "Giver" 
+			and EventGiver.Parent.name == RoomName then 
+			firetouchinterest(Player.Character.HumanoidRootPart,EventGiver, 0) 
+			end end end  
+
+function GiveAllGuns()
+	for _,GunGiver in pairs(game:GetService("Workspace").Weapons:GetDescendants()) do 
+		if GunGiver.name == "Hitbox" 
+		then firetouchinterest(Player.Character.HumanoidRootPart,GunGiver, 0) end end end
+
+function GetPapers()
+	for _,PaperGiver in pairs(workspace.AREA51:GetDescendants()) do 
+		if PaperGiver.name == "TouchInterest"
+			and PaperGiver.Parent.name == "Paper"
+		then firetouchinterest(Player.Character.HumanoidRootPart,PaperGiver.Parent, 0) end end end
+
+function WheelchairKillers()
+while wait(2) do
+	for i,v in pairs(Workspace.Killers:GetDescendants()) do 
+		if v.name == 'Zombie' and v.parent.parent.name == 'Killers' then 
+			v:destroy()
+		end end end end
+		
+function firerate()
+	for i,m in next,getgc(true)do
+		if type(m)=='table'and rawget(m,'
