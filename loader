@@ -1,0 +1,52 @@
+-- deobfuscator moment
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Player = game.Players.LocalPlayer
+local Window = OrionLib:MakeWindow({Name = "Security", HidePremium = true, SaveConfig = true, IntroEnabled = false})
+
+OrionLib:MakeNotification({
+	Name = "!",
+	Content = "Please Enter Your Whitelist Token! "..Player.Name..".",
+	Image = "rbxassetid://9679280461",
+	Time = 5
+})
+
+_G.Key = "E8901KDMN90K10"
+_G.KeyInput = "string"
+
+function no()
+    game.Players.LocalPlayer:Kick("Failed")
+end
+
+local Tab = Window:MakeTab({
+	Name = "Whitelist",
+	Icon = "rbxassetid://9679280461",
+	PremiumOnly = false
+})
+
+Tab:AddTextbox({
+	Name = "Please Enter Whitelist Token",
+	Default = "",
+	TextDisappear = true,
+	Callback = function(Value)
+		_G.KeyInput = Value
+	end	  
+})
+
+Tab:AddButton({
+	Name = "Start",
+	Callback = function()
+      		if _G.KeyInput == _G.Key then
+      		OrionLib:MakeNotification({
+	Name = "!",
+	Content = "You are whitelisted, Welcome "..Player.Name..".",
+	Image = "rbxassetid://9679280461",
+	Time = 5
+})
+            wait(2.2)
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/AgentHub/gayness/main/ricksanchyez"))()
+            else
+               game:Shutdown()
+      	end
+  	end    
+})
