@@ -1,0 +1,112 @@
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 9*60 + 25 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+
+shared.scr = [[
+3 [0i] 
+u u u y 
+u i u u u 
+y u [8i] u [8w] u 
+a [8w] a [8u] p 6 0 o 
+o [6e] u [6a] a u 6 p [30] 
+[3u] [30a] a [0u] 
+a [30u] a a [0u] s [3a] 
+u [2o] u 8 t 8 t 
+a a [8w] p 6 0 o 
+o [6e] u a 6 a e 6 O 
+3 [0r] [0a] a [30u] 
+a [30] a a [30] s [0a] 
+[2y] [8tu] [wu] 8 
+[8f] [uf] [wtuf] [8f] h [6eo] 
+[Ge] I [uf] [6ef] G d 6 
+a 3 0 u [0a] 3 a 
+[0a] a 0 [3f] [0a] a 
+[2a] a [2p] o 8 t [8wu] 
+8 [uf] [wt] [uf] [8tuf] [uf] [oh] [6e] 
+[IGe] [uf] f f d 5 a 
+[3a] [3u] u a 0 a 
+a [30] a 0 [30f] 0 a 3 0 
+[2a] p 2 o 8 
+[wu] [ra] a r [wra] [ep] 6 
+[wo] [0o] w a r [ep] 
+0 6 [O3] [Wr] 0 a r 
+[ra] a [0r] e p 0 [wo] o [0w] 
+[ra] 0 p [29e] [8to] 
+8 w [wuf] f t [uf] [uf] 
+[6oh] e 0 [IGe] [0uf] [6ef] G e [5d] 
+a [O30a] 0 [0u] [0a] 3 
+a u [30a] a f [0a] 
+0 [2a] a p o 8 
+8 w [ta] a [ta] a 
+f 6 a u 
+[0af] u u a 
+[0u] [0uf] [0u] 
+u [af] a [2ypd] 3 0 
+[30] a a a [ak] 
+[3fx] [ak] 2 [ak] 
+[2j] h [af] [30u] u u 0 [af] 
+[0u] a [0u] 
+u 0 [3af] y 2 [af] 0 
+0 a k a k a 
+[ak] f f 7 0 r u 
+[8p] a a p [up] p u 
+a a p [up] [up] [60p] a a p 
+[up] p a a u p [up] [up] 
+[30ua] O s s a [Oa] 0 [Oa] s s a [Oa] [0a] O 
+[30a] s s a a [O0] [0a] s [0s] a 
+[Oua] 2 s a a [8p] a p [up] 
+p 8 a a p [up] p u 7 6 p a a 
+p [up] p 6 a a p u [up] [5up] 
+[30] s u a [Oua] 0 s O a [Oua] 
+[O0] u [Oua] s s [Oa] [Oa] a u s s 
+[30] [Oa] O 0 [0s] [Oa] [3a] [uaf] [uf] 0 u 
+[af] 3 u [0u] u [0uaf] 3 
+u [0u] [30uf] y y [2pd] 
+y [30uf] u [ak] [ak] 
+[ak] [ak] k x [3f] 0 [ak] 
+[ak] 0 [9j] [2p] 8 p a a p 
+[up] [8p] a a p [up] [8up] [6p] 
+a a p [0ep] [6p] a a p [up] [5up] 
+[30a] s a [0ua] 0 s s [Oa] 
+[Oua] [0ua] [0u] 3 s s O [Oa] [Oa] 
+s s [Oa] [Oua] s a a [0uaf] 3 
+0 
+0 0 0 0 0 
+q q 0 0 3 0 0 0 
+0 q q [0u] 0 u 0 
+u 0 0 0 u [qi] [qi] 8 [wu] 8 
+8 [wu] 8 a a 8 w a 8 a 8 
+[6ps] 6 s p 6 [ps] 6 [6u] 
+d 6 6 [0a] 3 u u 
+a [30u] a 0 a [30] a 0 f [3a] u [0a] 
+3 u a [29] [9p] 2 o 8 
+u u [8ua] a u [8a] a 
+u [6s] s 6 [6s] u 
+[6p] u O [3u] 0 [30u] u 3 
+a 0 a [30] a [30u] a [3u] [0f] 3 0 
+a [30] [30] [29a] [29] [29p] u o 8 
+[tu] w a u a [wu] [8ua] 
+[ua] [6f] 
+[8tos] w [8t] 
+j p [pj] [pj] t [pj] 6 [pj] 
+[6epj] [oh] [epj] 0 [epj] j 6 
+[OH0a] f 7 [0pj] j p [pj] 0 
+[ak] [30f] [7uf] u [0f] [uf] [0ak] 7 
+[29pj] [8oh] [tf] [8t] 
+w u [tf] [uf] [uf] t f [oh] 
+[IGe] [0f] u [ef] G d 5 a 
+[O0a] O u a k a k 
+a k [7ak] [0fx] [3u] 7 [ak] 7 [2ak] 
+7 [9pj] [oh] [30uf] [3u] 
+u [30a] u [0u] a [ua] 
+u [0u] [3a] f [9ypd] 2 
+[3uaf] [0u] 3 a k [ak] 
+[0ak] 3 [ak] [30fx] [ak] 
+[2ak] [pj] [3p] a a p 
+p p 3 a a p p p u p 0 
+a p p p a 2 p p 
+0 s u a O O s s O [Oa] 
+[Oua] a [Oua] u O s s a O a a 
+s [us] [Oa] a O s a a 3 x
